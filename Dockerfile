@@ -1,4 +1,4 @@
 FROM openjdk
-COPY /home/jenkins/*.jar /app.jar
+COPY /home/jenkins/*.jar 
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","/my-app-1.0-SNAPSHOT.jar"]
